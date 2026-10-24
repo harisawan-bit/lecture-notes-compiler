@@ -1,0 +1,20 @@
+/* US Letter Preset: 8.5in x 11in (612pt x 792pt) */
+@page {
+  size: letter;
+  margin: 0.18in;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8.0px;
+  line-height: 1.13;
+  color: #000;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.two-col {
+  column-count: 2;
+  column-gap: 8px;
+}

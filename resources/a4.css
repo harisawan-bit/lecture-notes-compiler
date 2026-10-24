@@ -1,0 +1,20 @@
+/* ISO A4 Preset: 210mm x 297mm (595pt x 842pt) */
+@page {
+  size: A4;
+  margin: 4.5mm;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7.9px;
+  line-height: 1.13;
+  color: #000;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.two-col {
+  column-count: 2;
+  column-gap: 8px;
+}

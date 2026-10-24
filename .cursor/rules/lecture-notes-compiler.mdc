@@ -1,0 +1,25 @@
+---
+description: Rules for compiling lecture slides into high-density 2-column study PDFs
+globs: ["**/*.html", "**/*.pdf", "**/notes*.*"]
+alwaysApply: false
+---
+
+# Lecture Notes Compiler - Cursor AI Rules
+
+When asked to compile, summarize, or format lecture slides into study notes or PDFs:
+
+1. Target Dimensions:
+   - Default: US Legal (8.5in x 14in / 612pt x 1008pt) with 0.18in margin.
+   - Alternatives: US Letter (8.5in x 11in) or ISO A4 (210mm x 297mm).
+2. Typography and Palette:
+   - Body font: Arial 8.0px, line-height 1.13.
+   - Strict monochrome / grayscale styling (#000, #fff, #e2e2e2, #f4f4f4).
+   - No decorative banners, no slide numbers, and no slide source tags.
+3. Anti-Collision Table Rules:
+   - Always use table-layout: fixed; width: 100%;.
+   - Never exceed 3 or 4 columns within a single column.
+   - Always declare explicit percentage colgroup widths.
+   - Use word-break: break-word; overflow-wrap: break-word; hyphens: auto; on all td and th cells.
+4. Density and Verification:
+   - Every page should target 85% to 98% fullness.
+   - Run python scripts/verify_pdf.py on compiled output to ensure 0 text collisions.
