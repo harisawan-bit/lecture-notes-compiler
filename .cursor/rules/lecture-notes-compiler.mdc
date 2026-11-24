@@ -12,7 +12,7 @@ When asked to compile, summarize, or format lecture slides into study notes or P
    - Default: US Legal (8.5in x 14in / 612pt x 1008pt) with 0.18in margin.
    - Alternatives: US Letter (8.5in x 11in) or ISO A4 (210mm x 297mm).
 2. Typography and Palette:
-   - Body font: Arial 8.0px, line-height 1.13.
+   - Body font: Google Sans Flex (fallback: Google Sans, Arial, Helvetica) 11px (8.25pt print), line-height 1.32, column-gap 14px.
    - Strict monochrome / grayscale styling (#000, #fff, #e2e2e2, #f4f4f4).
    - No decorative banners, no slide numbers, and no slide source tags.
 3. Anti-Collision Table Rules:

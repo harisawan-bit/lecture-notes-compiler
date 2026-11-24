@@ -13,7 +13,7 @@ Key Capabilities:
 - Automated Extraction: Extracts text, speaker notes, and shape tables from PPT and PPTX decks.
 - Diagram OCR: Automatically runs optical character recognition on embedded diagrams, metabolic pathways, and cycle flowcharts.
 - Anti-Collision Table Layout: Uses fixed-layout column groups and structured 3-column architectures to eliminate Chromium multi-column row-height collapse and column bleed.
-- Zero-Waste Typography: Standardized 8.0px Arial typography with 1.13 line-height and monochrome styling.
+- Print-Ready Typography: Standardized 11px Google Sans Flex typography (8.25pt print) with 1.32 line-height, 14px column gap, and monochrome styling.
 - Automated Spatial QA: Python verification engine that detects text collisions, verifies column separation gaps, and measures vertical page density.
 
 ## Page Size Presets

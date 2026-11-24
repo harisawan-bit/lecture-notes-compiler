@@ -4,8 +4,8 @@ When processing lecture notes, slides, or generating consolidated PDF study docu
 
 1. Layout Standards:
    - Page sizes supported: US Legal (8.5x14in), US Letter (8.5x11in), ISO A4 (210x297mm).
-   - Layout: Two-column flow (column-count: 2; column-gap: 8px) with 0.18in margins.
-   - Body font: Arial 8.0px, line-height 1.13.
+   - Layout: Two-column flow (column-count: 2; column-gap: 14px) with 0.18in margins.
+   - Body font: Google Sans Flex (fallback: Google Sans, Arial, Helvetica) 11px (8.25pt print), line-height 1.32.
    - Monochrome palette: Black, white, and subtle grayscale backgrounds (#000, #fff, #e2e2e2, #f4f4f4).
 2. Elimination of Wasted Space:
    - Remove all decorative header banners, slide numbers, and slide labels.

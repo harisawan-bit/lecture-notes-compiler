@@ -1,7 +1,7 @@
 ---
 name: lecture-notes-compiler
 description: >-
-  Extracts, consolidates, and formats academic and medical lecture slides (PPT, PPTX, PDFs, images) into dense, high-yield, publication-grade study compendiums. Generates zero-waste, 2-column PDFs across US Legal, US Letter, and ISO A4 formats with 8px Arial typography, strictly black-and-white styling, diagram OCR extraction, anti-collision fixed tables, and automated spatial verification. Use when the user asks to summarize, compile, or format lecture slides into printable notes or high-density study PDFs.
+  Extracts, consolidates, and formats academic and medical/MBBS lecture slides (PPT, PPTX, PDFs, images) into dense, high-yield, publication-grade study compendiums. Generates zero-waste, 2-column PDFs across US Legal (standard for MBBS master notes), US Letter, and ISO A4 formats with 11px Google Sans Flex typography, strictly black-and-white styling, diagram OCR extraction, anti-collision fixed tables, and automated spatial verification. Use when the user asks to summarize, compile, or format lecture slides into printable notes or high-density study PDFs.
 ---
 
 # Lecture Notes Compiler: High-Density Study Compendium Runbook
@@ -15,9 +15,9 @@ This runbook guides AI agents across all IDEs (Antigravity, Claude Code, Cursor,
    - US Letter (8.5in x 11in / 612pt x 792pt): Standard North American printer paper.
    - ISO A4 (210mm x 297mm / 595pt x 842pt): Standard international printer paper.
 2. Layout Architecture:
-   - Continuous two-column flow (column-count: 2; column-gap: 8px).
+   - Continuous two-column flow (column-count: 2; column-gap: 14px).
    - Minimal printer margins: 0.18in (4.5mm).
-   - Body font: Arial or Helvetica at 8.0px with 1.13 line-height.
+   - Body font: Google Sans Flex (fallback: Google Sans, Arial, Helvetica) at 11px (8.25pt print) with 1.32 line-height.
    - Pure black-and-white / grayscale palette (#000, #fff, #e2e2e2, #f4f4f4).
    - No decorative headers, no banner art, and no slide source tags.
    - Content organized purely by physiological, scientific, or clinical topic.
@@ -101,4 +101,4 @@ python scripts/verify_pdf.py <output.pdf> [target_page_count] --page-size=legal
 - Page Density Check: Confirms vertical coverage reaches 85% to 98%.
 - If the final page is under-filled:
   - Add high-yield clinical case vignettes and a rapid-review diagnostic buzzword matrix.
-  - Fine-tune line-height (1.11 to 1.14) and td padding (0.8px to 1.2px) to achieve continuous page fullness.
+  - Fine-tune line-height (1.28 to 1.35) and td padding (2.0px to 3.0px) to achieve continuous page fullness.

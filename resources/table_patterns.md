@@ -6,7 +6,7 @@ In a 2-column layout (Legal, Letter, or A4), each column width is approximately 
 Use for inborn errors of metabolism, storage diseases, receptor syndromes, and enzymatic defects.
 
 ```html
-<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 6.95px; line-height: 1.09;">
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 9.5px; line-height: 1.25;">
   <colgroup>
     <col style="width: 27%">
     <col style="width: 33%">
@@ -33,7 +33,7 @@ Use for inborn errors of metabolism, storage diseases, receptor syndromes, and e
 Use for Group I vs Group II hormones, Direct vs Indirect GH effects, Proteoglycans vs Glycoproteins, siRNA vs miRNA, and RIA vs ELISA.
 
 ```html
-<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 6.95px; line-height: 1.09;">
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 9.5px; line-height: 1.25;">
   <colgroup>
     <col style="width: 24%">
     <col style="width: 38%">
@@ -60,7 +60,7 @@ Use for Group I vs Group II hormones, Direct vs Indirect GH effects, Proteoglyca
 Use for Phospholipases (PLA1 to PLD), PI-PLC isoforms, Thyroid deiodinases (D1 to D3), and DNA repair enzyme complexes.
 
 ```html
-<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 6.95px; line-height: 1.09;">
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 9.5px; line-height: 1.25;">
   <colgroup>
     <col style="width: 15%">
     <col style="width: 25%">
@@ -90,7 +90,7 @@ Use for Phospholipases (PLA1 to PLD), PI-PLC isoforms, Thyroid deiodinases (D1 t
 Use for enzyme blockers, receptor antagonists, chemotherapy agents, and targeted therapeutics.
 
 ```html
-<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 6.95px; line-height: 1.09;">
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 9.5px; line-height: 1.25;">
   <colgroup>
     <col style="width: 25%">
     <col style="width: 32%">
